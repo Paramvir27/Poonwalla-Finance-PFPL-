@@ -7,7 +7,7 @@ body {
 }
 
 .t-brown {
-  color: #cf9841 !important;
+  color: #c89d3c !important;
 }
 
 .navbar-toggler-icon {
@@ -82,8 +82,19 @@ body {
 }
 
 .poonawallaTagLine {
-  font-size: 16px;
-  font-weight: bolder;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-shadow: 0px 0px 0px black;
+}
+
+.checkboxBackground {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 3px;
+}
+
+.checkboxHeading {
+  font-size: 14px;
+  text-shadow: 0px 0px 0px black;
 }
 @media screen and (min-width: 374px) {
   .big-border {
