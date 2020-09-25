@@ -1,4 +1,4 @@
-html {
+body {
   font-family: "Nunito Sans", sans-serif !important;
 }
 
@@ -64,6 +64,27 @@ html {
   visibility: hidden;
 }
 
+/* .carouselBackground {
+  background-color: red;
+  background-image: url("../Poonawalla Finance Images/Group 4428@2x.png");
+  background-repeat: no-repeat;
+
+  height: 500px;
+} */
+
+.poonawallaHeading {
+  font-size: 14px;
+  font-weight: 400;
+}
+.poonawallaHeading::first-letter {
+  font-size: 28px;
+  border-bottom: 2px solid #cf9841;
+}
+
+.poonawallaTagLine {
+  font-size: 16px;
+  font-weight: bolder;
+}
 @media screen and (min-width: 374px) {
   .big-border {
     border: 38px #cf9841 solid;
