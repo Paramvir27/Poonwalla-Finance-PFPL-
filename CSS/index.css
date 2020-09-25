@@ -1,4 +1,4 @@
-body {
+html {
   font-family: "Nunito Sans", sans-serif !important;
 }
 
@@ -58,12 +58,36 @@ body {
   border-radius: 0px 24px 0px 0px;
   transform: scaleX(1) rotate(5deg) translateX(-40.2px) translateY(-5px);
 }
+
+.big-border {
+  border: 33px #cf9841 solid;
+  visibility: hidden;
+}
+
+@media screen and (min-width: 374px) {
+  .big-border {
+    border: 38px #cf9841 solid;
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .big-border {
+    border: 42px #cf9841 solid;
+    visibility: hidden;
+  }
+}
+
 @media screen and (min-width: 576px) {
 }
 
 @media screen and (min-width: 768px) {
   .left-border {
-    border-left: 1px solid white;
+    border-left: 1px solid rgb(150, 143, 143);
+  }
+  .big-border {
+    border: 76px #cf9841 solid;
+    visibility: visible;
   }
 }
 
