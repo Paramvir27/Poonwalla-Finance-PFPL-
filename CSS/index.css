@@ -142,12 +142,16 @@ input[type="radio"]:checked + label {
 }
 
 .progress-step-heading-selected {
-  color: black;
+  color: #404040;
 }
 
 .progress-step-heading-selected span {
   padding-bottom: 3px;
   border-bottom: 2px solid #c89d3c;
+}
+
+.points i {
+  padding-top: 2px;
 }
 @media screen and (min-width: 320px) {
   .big-border {
