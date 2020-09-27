@@ -982,7 +982,7 @@
   font-size: 13px;
 }
 .fs-14 {
-  font-size: 14px;
+  font-size: 14px !important;
 }
 .fs-15 {
   font-size: 15px;
@@ -1279,7 +1279,7 @@
   color: #4169e1;
 }
 .t-light {
-  color: #f0f0f0;
+  color: #f0f0f0 !important;
 }
 .t-yellow {
   color: #ffff00;

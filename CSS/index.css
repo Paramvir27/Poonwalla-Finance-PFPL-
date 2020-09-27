@@ -108,8 +108,8 @@ input[type="radio"]:checked + label {
 }
 
 .formHeading {
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: bolder;
 }
 .progress-step {
   background-color: #dadee2;
@@ -138,7 +138,7 @@ input[type="radio"]:checked + label {
 
 .progress-step-heading {
   font-size: 14px;
-  color: grey;
+  color: lightgray;
 }
 
 .progress-step-heading-selected {
@@ -242,5 +242,8 @@ input[type="radio"]:checked + label {
 @media screen and (min-width: 1200px) {
   .progress-step {
     background-image: linear-gradient(to right, #cf9841 6%, #dadee2 6%);
+  }
+  .progress-step-heading {
+    font-size: 16px;
   }
 }
