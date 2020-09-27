@@ -95,27 +95,91 @@
       <div class="big-border"></div>
     </header>
 
+    <!-- Background + Radio Boxes + Progress bar + Sign Up Form -->
     <section>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 col-md-4 px-0" style="position: relative">
+          <div class="col-12 col-md-5 col-xl-4 px-0" style="position: relative">
+            <!-- Mobile Background Image -->
             <img
               src="Poonawalla Finance Images/Mask Group 91@2x.png"
-              class="img-fluid w-100"
+              class="img-fluid w-100 d-md-none"
+            />
+            <!-- Tablet + Desktop Background Image -->
+            <img
+              src="Poonawalla Finance Images/caro1.png"
+              class="img-fluid w-100 d-none d-md-block"
             />
             <div style="position: absolute; top: 0px" class="w-100">
               <div class="row m-0 py-3 mt-1">
-                <div class="col-12 d-flex flex-column align-items-center">
-                  <h1 class="poonawallaHeading text-dark">
+                <!-- Poonwalla Finance Heading + Tagline -->
+                <div
+                  class="col-12 d-flex flex-column align-items-center align-items-md-start"
+                >
+                  <!-- Poonwalla Finance Heading -->
+                  <h1
+                    class="poonawallaHeading text-dark pl-md-3 pt-md-3 pt-lg-5 pl-lg-5"
+                  >
                     Poonawalla Finance
                   </h1>
-                  <p class="poonawallaTagLine text-dark pb-3 pt-3">
+                  <!-- Poonwalla Finance Tagline -->
+                  <p
+                    class="poonawallaTagLine text-dark pb-3 pt-3 pl-md-3 pt-md-3 pt-lg-4 pt-xl-5 pl-lg-5 pr-md-4"
+                  >
                     Timing Makes all the Difference
                   </p>
                 </div>
-                <div class="col-12">
-                  <div class="checkboxBackground mx-4 p-3">
-                    <h3 class="checkboxHeading">Looking for:</h2>
+
+                <!-- Transparent Container for Radio Buttons  -->
+                <div class="col-12 p-lg-0">
+                  <div class="checkboxBackground mx-4 p-3 p-lg-3 py-lg-3">
+                    <h3 class="checkboxHeading">Looking for:</h3>
+                    <!-- Form for for Radio Buttons  -->
+                    <form>
+                      <div class="row t-dark mt-3 mt-lg-4">
+                        <!-- Radio Button 1 - Personal Loan  -->
+                        <div
+                          class="col-6 col-sm-4 col-md-12 col-lg-6 col-xl-4 d-flex flex-row p-0 pl-3"
+                        >
+                          <input
+                            id="c1"
+                            type="radio"
+                            name="r1"
+                            class="d-none"
+                          />
+                          <label for="c1" class="radio-style"></label>
+                          <label for="c1" class="pl-1">Personal Loan</label>
+                        </div>
+
+                        <!-- Radio Button 2 - Professional Loan  -->
+                        <div
+                          class="col-6 col-sm-4 col-md-12 col-lg-6 col-xl-4 d-flex flex-row p-0 pl-2 pl-sm-3 pl-lg-3 pl-xl-2"
+                        >
+                          <input
+                            id="c2"
+                            type="radio"
+                            name="r1"
+                            class="d-none"
+                          />
+                          <label for="c2" class="radio-style"></label>
+                          <label for="c2" class="pl-1">Professional Loan</label>
+                        </div>
+
+                        <!-- Radio Button 3 - Business Loan  -->
+                        <div
+                          class="col-6 col-sm-4 col-md-12 col-lg-6 col-xl-4 d-flex flex-row p-0 pl-3"
+                        >
+                          <input
+                            id="c3"
+                            type="radio"
+                            name="r1"
+                            class="d-none"
+                          />
+                          <label for="c3" class="radio-style"></label>
+                          <label for="c3" class="pl-1">Business Loan</label>
+                        </div>
+                      </div>
+                    </form>
                   </div>
                 </div>
               </div>
