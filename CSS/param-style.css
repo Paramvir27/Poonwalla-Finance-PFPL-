@@ -868,7 +868,7 @@
   border-color: #ff9100;
 }
 .b-white {
-  border-color: #ffffff;
+  border-color: #ffffff !important;
 }
 .b-purple {
   border-color: #800080;
