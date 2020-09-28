@@ -153,6 +153,24 @@ input[type="radio"]:checked + label {
 .points i {
   padding-top: 2px;
 }
+
+nav {
+  box-shadow: 0 0 5px lightgray;
+}
+
+.heading {
+  font-size: 24px;
+  text-shadow: 0 0 0px grey;
+}
+
+.heading span {
+  border-bottom: 3px solid #c89d3c;
+}
+
+.subHeading {
+  font-size: 18px;
+  text-shadow: 0 0 0px lightgray;
+}
 @media screen and (min-width: 320px) {
   .big-border {
     border: 38px #cf9841 solid;
@@ -240,6 +258,14 @@ input[type="radio"]:checked + label {
   }
   .progress-step {
     background-image: linear-gradient(to right, #cf9841 8%, #dadee2 8%);
+  }
+  .heading {
+    font-size: 28px;
+    text-shadow: 0 0 0px grey;
+  }
+
+  .subHeading {
+    font-size: 22px;
   }
 }
 
