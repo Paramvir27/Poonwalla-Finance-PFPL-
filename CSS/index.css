@@ -224,6 +224,15 @@ nav {
   background-color: #16191a;
 }
 
+.disclaimerBcg {
+  background-color: #383b3b;
+}
+
+.logoImg {
+  height: 30px;
+  width: 100px;
+}
+
 @media screen and (min-width: 320px) {
   .big-border {
     border: 38px #cf9841 solid;
